@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pixel Gallery | Explore the World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <p class="subtitle">A collection of beautiful moments.</p>
+
+        <div class="hero">
+            <h1>Explore the beauty<br>of our world.</h1>
+            <p>Discover places, nature and architecture through photography.</p>
+        </div>
+    </header>
+
+    <main class="gallery-container">
+
+        <section class="gallery-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Explore Gallery</h2>
+                    <p>Discover something beautiful.</p>
+                </div>
+
+                <span id="photo-count">12 Photos</span>
+            </div>
+
+            <div class="search-box">
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search photos..."
+                    aria-label="Search photos"
+                >
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">All Photos</button>
+                <button class="filter-btn" data-category="nature">Nature</button>
+                <button class="filter-btn" data-category="architecture">Architecture</button>
+                <button class="filter-btn" data-category="travel">Travel</button>
+            </div>
+
+            <div class="gallery">
+
+                <article class="gallery-item" data-category="nature">
+                    <img src="assets/mountain.jpg" alt="Mountain landscape" loading="lazy">
+                    <div class="image-info">
+                        <span>Nature</span>
+                        <h3>Mountain Escape</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="architecture">
+                    <img src="assets/architecture.jpg" alt="Detailed architecture" loading="lazy">
+                    <div class="image-info">
+                        <span>Architecture</span>
+                        <h3>Modern Design</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="travel">
+                    <img src="assets/paradise.jpg" alt="Tropical paradise" loading="lazy">
+                    <div class="image-info">
+                        <span>Travel</span>
+                        <h3>Hidden Paradise</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="nature">
+                    <img src="assets/forest.jpg" alt="Sunlight through a forest" loading="lazy">
+                    <div class="image-info">
+                        <span>Nature</span>
+                        <h3>Forest Dreams</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="architecture">
+                    <img src="assets/building3.jpg" alt="Contemporary building" loading="lazy">
+                    <div class="image-info">
+                        <span>Architecture</span>
+                        <h3>Urban Beauty</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="travel">
+                    <img src="assets/snow.jpg" alt="Snowy mountain destination" loading="lazy">
+                    <div class="image-info">
+                        <span>Travel</span>
+                        <h3>Into the Wild</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="nature">
+                    <img src="assets/waterfall.jpg" alt="Waterfall surrounded by nature" loading="lazy">
+                    <div class="image-info">
+                        <span>Nature</span>
+                        <h3>Waterfall Wonders</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="nature">
+                    <img src="assets/ocean.jpg" alt="Blue ocean waves" loading="lazy">
+                    <div class="image-info">
+                        <span>Nature</span>
+                        <h3>Ocean Blue</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="architecture">
+                    <img src="assets/city.jpg" alt="City buildings" loading="lazy">
+                    <div class="image-info">
+                        <span>Architecture</span>
+                        <h3>City Lights</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="travel">
+                    <img src="assets/beach.jpg" alt="Beautiful sandy beach" loading="lazy">
+                    <div class="image-info">
+                        <span>Travel</span>
+                        <h3>Coastal Escape</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="nature">
+                    <img src="assets/flowers.jpg" alt="Colorful flowers" loading="lazy">
+                    <div class="image-info">
+                        <span>Nature</span>
+                        <h3>Floral Moments</h3>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-category="travel">
+                    <img src="assets/desert.jpg" alt="Desert landscape" loading="lazy">
+                    <div class="image-info">
+                        <span>Travel</span>
+                        <h3>Golden Desert</h3>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="no-results" id="noResults" hidden>
+                No photos found. Try another search.
+            </p>
+        </section>
+
+    </main>
+
+    <div class="image-preview" id="imagePreview" aria-hidden="true">
+        <button class="close-preview" aria-label="Close preview">&times;</button>
+
+        <button class="preview-nav prev" aria-label="Previous image">&#10094;</button>
+
+        <figure>
+            <img id="previewImage" src="" alt="">
+            <figcaption id="previewCaption"></figcaption>
+        </figure>
+
+        <button class="preview-nav next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <footer class="footer">
+        <a href="#" class="logo">Pixel<span>Gallery.</span></a>
+        <p>Capturing beauty, one picture at a time.</p>
+        <small>© 2026 Pixel Gallery</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
