@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Vishakha Khade's developer portfolio showcasing frontend development, React projects, and AI automation learning."
+    />
+
+    <title>Vishakha Khade | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <audio id="robotSound" src="assets/robotic2.mp3" preload="auto" loop></audio>
+  <body>
+    <!-- Background -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navbar -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">
+          <span class="logo-bracket">&lt;</span>PortFolio<span class="logo-bracket"
+            >/&gt;</span
+          >
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+        </ul>
+
+        <a
+          href="assets/Vishakha_Khade_New_Resume.pdf"
+          class="resume-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume ↗
+        </a>
+        <button class="theme-toggle" id="themeToggle" type="button">
+          ☼ Light
+        </button>
+        <a href="#contact" class="nav-button">Let's Talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot"></span>
+            OPEN TO INTERNSHIPS & ENTRY-LEVEL ROLES
+          </div>
+
+          <p class="eyebrow">I'M VISHAKHA KHADE</p>
+
+          <h1>
+            Building for the
+            <span class="gradient-text">web.</span>
+            <br />
+            Exploring what's
+            <span class="gradient-text">next.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm a BCCA graduate building my skills in frontend development and
+            exploring AI automation. I enjoy turning ideas into useful digital
+            experiences while learning something new with every project.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Explore My Work <span>↗</span>
+            </a>
+
+            <a href="#about" class="button button-secondary"> More About Me </a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Frontend Development</span>
+            <span class="meta-divider"></span>
+            <span>React.js</span>
+            <span class="meta-divider"></span>
+            <span>AI Automation</span>
+          </div>
+        </div>
+
+        <!-- Interactive avatar -->
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+
+          <div class="visual-tag tag-top">
+            <span class="tag-dot"></span>
+            CREATIVE MINDSET
+          </div>
+
+          <div class="avatar-container" id="avatarContainer">
+            <img
+              src="assets/my-profile.png"
+              alt="Vishakha's digital avatar"
+              class="avatar-image"
+            />
+
+            <img
+              src="assets/robot.png"
+              alt=""
+              class="avatar-image robot-image"
+              id="robotImage"
+            />
+
+            <div class="avatar-label">HUMAN × MACHINE</div>
+          </div>
+
+          <div class="visual-tag tag-bottom">
+            <span>&lt;/&gt;</span>
+            ALWAYS LEARNING
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Introduction -->
+      <section class="intro-strip container">
+        <div class="intro-strip-item">
+          <span class="strip-number">01</span>
+          <div>
+            <h3>Frontend</h3>
+            <p>Building responsive web interfaces</p>
+          </div>
+        </div>
+
+        <div class="intro-strip-item">
+          <span class="strip-number">02</span>
+          <div>
+            <h3>React</h3>
+            <p>Learning component-based development</p>
+          </div>
+        </div>
+
+        <div class="intro-strip-item">
+          <span class="strip-number">03</span>
+          <div>
+            <h3>AI Automation</h3>
+            <p>Exploring smarter workflows</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <p class="section-label">GET TO KNOW ME</p>
+          <h2>A little about <span class="gradient-text">my journey.</span></h2>
+          <p class="section-subtitle">
+            Learning by building, improving through practice, and staying
+            curious about technology.
+          </p>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-main card-surface">
+            <div class="about-icon">&lt;/&gt;</div>
+
+            <h3>I'm Vishakha, an aspiring developer.</h3>
+
+            <p>
+              I have a background in computer applications and a growing
+              interest in building websites and interactive user interfaces. I
+              enjoy frontend development because it combines logical thinking
+              with creativity.
+            </p>
+
+            <p>
+              I'm developing my skills in HTML, CSS, JavaScript and React.
+              Alongside web development, I'm exploring AI tools and automation
+              platforms such as n8n and Voiceflow to understand how repetitive
+              tasks can be simplified with technology.
+            </p>
+
+            <p>
+              My current focus is on strengthening my fundamentals, creating
+              practical projects and preparing for an internship or entry-level
+              opportunity where I can contribute, learn from a team and grow as
+              a developer.
+            </p>
+
+            <a href="#projects" class="text-link">
+              See what I'm building <span>→</span>
+            </a>
+          </div>
+
+          <div class="about-side">
+            <article class="detail-card card-surface">
+              <span class="detail-icon">01</span>
+              <div>
+                <h4>My Approach</h4>
+                <p>
+                  Learn the fundamentals, practise through projects and improve
+                  one step at a time.
+                </p>
+              </div>
+            </article>
+
+            <article class="detail-card card-surface">
+              <span class="detail-icon">02</span>
+              <div>
+                <h4>What Interests Me</h4>
+                <p>
+                  Frontend experiences, React applications, AI tools and
+                  workflow automation.
+                </p>
+              </div>
+            </article>
+
+            <article class="detail-card card-surface">
+              <span class="detail-icon">03</span>
+              <div>
+                <h4>My Next Step</h4>
+                <p>
+                  Build stronger projects, collaborate with developers and gain
+                  real-world experience.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education-card card-surface">
+          <div class="education-heading">
+            <div>
+              <p class="section-label">EDUCATION</p>
+              <h3>My academic background</h3>
+            </div>
+
+            <span class="education-symbol">✳</span>
+          </div>
+
+          <div class="education-item">
+            <div class="education-marker"></div>
+
+            <div class="education-details">
+              <h4>Bachelor of Commerce in Computer Applications (BCCA)</h4>
+              <p>City Premier College, Nagpur</p>
+            </div>
+
+            <span class="education-date">2023 – 2026</span>
+          </div>
+
+          <div class="education-item">
+            <div class="education-marker"></div>
+
+            <div class="education-details">
+              <h4>Higher Secondary Education</h4>
+              <p>Saraswati Integrated & Junior College, Nagpur</p>
+            </div>
+
+            <span class="education-date">2021 – 2023</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+
+<section class="section container" id="certifications">
+    <div class="section-heading">
+        <p class="section-label">LEARNING & ACHIEVEMENTS</p>
+        <h2>My <span class="gradient-text">certifications.</span></h2>
+        <p class="section-subtitle">
+            Certificates earned through learning and practice.
+        </p>
+    </div>
+
+<div class="certifications-grid">
+
+    <!-- HTML Certificate -->
+    <article class="certification-card card-surface">
+        <div class="certification-icon">&lt;/&gt;</div>
+        <div class="certification-content">
+            
+            <h3>HTML Certificate</h3>
+            <p>Completed HTML learning and practice.</p>
+            <a href="https://hogwarts-public.roadtocode.org/certificates/ICP-JAN-26/E87-9UH-GNI.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-link">View Certificate →</a>
+        </div>
+    </article>
+
+    <!-- CSS Certificate -->
+    <article class="certification-card card-surface">
+        <div class="certification-icon">Css</div>
+        <div class="certification-content">
+    
+            <h3>CSS Certificate</h3>
+            <p>Completed CSS learning and practice.</p>
+            <a href="https://hogwarts-public.roadtocode.org/certificates/ICP-JAN-26/JCN-W9Z-M55.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-link">View Certificate →</a>
+        </div>
+    </article>
+
+    <!-- JavaScript Certificate -->
+    <article class="certification-card card-surface">
+        <div class="certification-icon">JS</div>
+        <div class="certification-content">
+
+            <h3>JavaScript Certificate</h3>
+            <p>JavaScript course completion.</p>
+            <a href="https://hogwarts-public.roadtocode.org/certificates/ICP-JAN-26/M0L-10R-KPN.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-link">View Certificate →</a>
+        </div>
+    </article>
+
+</div>
+
+</section>
+
+      <!-- Skills -->
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">MY TOOLKIT</p>
+
+            <h2>Skills I'm <span class="gradient-text">building.</span></h2>
+
+            <p class="section-subtitle">
+              The technologies I'm learning, practising and using to create
+              projects.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Frontend -->
+            <article class="skill-category card-surface">
+              <div class="category-heading">
+                <div class="category-icon icon-purple">&lt;/&gt;</div>
+                <div>
+                  <h3>Frontend Development</h3>
+                  <p>Building the user interface</p>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-symbol html-symbol">5</div>
+                  <div class="skill-info">
+                    <h4>HTML5</h4>
+                    <p>Semantic page structure</p>
+                  </div>
+                  <span class="skill-status">Practising</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol css-symbol">3</div>
+                  <div class="skill-info">
+                    <h4>CSS3</h4>
+                    <p>Layouts and responsive styling</p>
+                  </div>
+                  <span class="skill-status">Practising</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol js-symbol">JS</div>
+                  <div class="skill-info">
+                    <h4>JavaScript</h4>
+                    <p>DOM and interactive behaviour</p>
+                  </div>
+                  <span class="skill-status">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol react-symbol">⚛</div>
+                  <div class="skill-info">
+                    <h4>React.js</h4>
+                    <p>Components, props and hooks</p>
+                  </div>
+                  <span class="skill-status status-learning">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol">TW</div>
+                  <div class="skill-info">
+                    <h4>Tailwind CSS</h4>
+                    <p>Utility-first CSS styling</p>
+                  </div>
+                  <span class="skill-status status-learning">Learning</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Tools -->
+            <article class="skill-category card-surface">
+              <div class="category-heading">
+                <div class="category-icon icon-cyan">⌘</div>
+                <div>
+                  <h3>Developer Tools</h3>
+                  <p>Building and managing projects</p>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-symbol git-symbol">G</div>
+                  <div class="skill-info">
+                    <h4>Git</h4>
+                    <p>Version control fundamentals</p>
+                  </div>
+                  <span class="skill-status">Practising</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol github-symbol">GH</div>
+                  <div class="skill-info">
+                    <h4>GitHub</h4>
+                    <p>Repositories and collaboration</p>
+                  </div>
+                  <span class="skill-status">Practising</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol vscode-symbol">VS</div>
+                  <div class="skill-info">
+                    <h4>VS Code</h4>
+                    <p>Development environment</p>
+                  </div>
+                  <span class="skill-status">Using</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- AI Automation -->
+            <article class="skill-category card-surface">
+              <div class="category-heading">
+                <div class="category-icon icon-pink">✳</div>
+                <div>
+                  <h3>AI & Automation</h3>
+                  <p>Exploring intelligent workflows</p>
+                </div>
+              </div>
+
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-symbol n8n-symbol">n8n</div>
+                  <div class="skill-info">
+                    <h4>n8n</h4>
+                    <p>Workflow automation basics</p>
+                  </div>
+                  <span class="skill-status status-learning">Learning</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol voiceflow-symbol">V</div>
+                  <div class="skill-info">
+                    <h4>Voiceflow</h4>
+                    <p>Conversational chatbot building</p>
+                  </div>
+                  <span class="skill-status">Exploring</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-symbol ai-symbol">AI</div>
+                  <div class="skill-info">
+                    <h4>Generative AI Tools</h4>
+                    <p>Prompting and AI-assisted work</p>
+                  </div>
+                  <span class="skill-status">Exploring</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Fundamentals -->
+            <article class="skill-category card-surface">
+              <div class="category-heading">
+                <div class="category-icon icon-green">◇</div>
+                <div>
+                  <h3>Core Fundamentals</h3>
+                  <p>Knowledge supporting my work</p>
+                </div>
+              </div>
+
+              <div class="fundamentals-list">
+                <span>Responsive Web Design</span>
+                <span>DOM Manipulation</span>
+                <span>Component-Based UI</span>
+                <span>DBMS Fundamentals</span>
+                <span>Computer Networks</span>
+                <span>Problem Solving</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="learning-note">
+            <span class="learning-note-icon">↗</span>
+            <p>
+              <strong>Currently focused on:</strong>
+              improving JavaScript and React fundamentals while building
+              practical projects and exploring AI automation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section container" id="projects">
+        <div class="section-heading">
+          <p class="section-label">SELECTED WORK</p>
+
+          <h2>Things I've <span class="gradient-text">built.</span></h2>
+
+          <p class="section-subtitle">
+            Practical projects that help me apply what I learn and improve my
+            development skills.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card card-surface">
+            <div class="project-top">
+              <div class="project-icon project-purple">01</div>
+              <span class="project-type">WEB APPLICATION</span>
+            </div>
+
+            <h3>Expense Tracker</h3>
+
+            <p>
+              A personal finance tool for recording income and expenses, viewing
+              balances and managing transaction entries.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>LocalStorage</span>
+            </div>
+
+            <a
+              href="https://project-expense-track.netlify.app/"
+              class="project-link"
+              data-project="expense-tracker"
+            >
+              View Project <span>↗</span>
+            </a>
+          </article>
+
+          <article class="project-card card-surface">
+            <div class="project-top">
+              <div class="project-icon project-cyan">02</div>
+              <span class="project-type">REACT PROJECT</span>
+            </div>
+
+            <h3>Recipe Finder</h3>
+
+            <p>
+              A recipe discovery interface designed to help users explore meals
+              and practise React components, props and page navigation.
+            </p>
+
+            <div class="project-tags">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+              <span>Routing</span>
+            </div>
+
+            <a href="" class="project-link" data-project="recipe-finder">
+              View Project <span>↗</span>
+            </a>
+          </article>
+
+          <article class="project-card card-surface">
+            <div class="project-top">
+              <div class="project-icon project-pink">03</div>
+              <span class="project-type">WEB DESIGN</span>
+            </div>
+
+            <h3>To Do List</h3>
+
+            <p>
+              A To Do List website concept you can add your every day task to
+              this website it helps you to keep your task organised.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavsScript</span>
+              <span>Responsive Design</span>
+            </div>
+
+            <a
+              href="https://to-do-list-with-js.netlify.app/"
+              class="project-link"
+              data-project="travel-website"
+            >
+              View Project <span>↗</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section container" id="contact">
+        <div class="contact-card">
+          <div class="contact-decoration decoration-one"></div>
+          <div class="contact-decoration decoration-two"></div>
+
+          <div class="contact-content">
+            <p class="section-label">LET'S CONNECT</p>
+
+            <h2>
+              Let's build something
+              <span class="gradient-text">meaningful.</span>
+            </h2>
+
+            <p class="contact-description">
+              I'm interested in internships, entry-level opportunities and
+              connecting with people who enjoy building with technology. If you
+              have an opportunity or would like to connect, feel free to reach
+              out.
+            </p>
+
+            <!-- Replace this email with your actual email -->
+            <a
+              href="mailto:vishakhakhade24@gmail.com"
+              class="button button-primary contact-button"
+            >
+              Get in Touch <span>↗</span>
+            </a>
+
+            <div class="contact-socials">
+              <a
+                href="https://github.com/vishakha-khade"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub <span>↗</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/vishakha-khade-505369291/?isSelfProfile=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <a href="#home" class="logo">
+          <span class="logo-bracket">&lt;</span>PortFolio<span class="logo-bracket"
+            >/&gt;</span
+          >
+        </a>
+
+        <p>
+          Designed and built by Vishakha Khade. Learning something new every
+          day.
+        </p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
